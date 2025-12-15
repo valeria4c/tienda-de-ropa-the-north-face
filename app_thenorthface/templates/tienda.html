@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tienda Deportiva</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<h1>Tienda Deportiva</h1>
+
+<div class="productos">
+
+    <div class="producto">
+        <img src="{% static 'img/tenis1.jpg' %}">
+        <h4>Tenis Running</h4>
+        <p>$1,899</p>
+    </div>
+
+    <div class="producto">
+        <img src="{% static 'img/sudadera1.jpg' %}">
+        <h4>Sudadera Sport</h4>
+        <p>$1,299</p>
+    </div>
+
+    <div class="producto">
+        <img src="{% static 'img/pantalonera1.jpg' %}">
+        <h4>Pantalonera Pro</h4>
+        <p>$799</p>
+    </div>
+
+</div>
+
+</body>
+</html>
